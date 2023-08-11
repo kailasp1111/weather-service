@@ -29,7 +29,7 @@ jobs:
       with:
         action: deploy
         azure-subscription: ${{ env.SUBSCRIPTION_ID }}
-        service-name: weather-service
+        service-name: azure-az-spring-microservice
         app-name: weather-service
         use-staging-deployment: false
         package: target/demo-0.0.1-SNAPSHOT.jar
